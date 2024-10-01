@@ -20,7 +20,7 @@ class Solution:
                         d[0]-=2
                         m=1
                     else:
-                        print("cvb")
+                        # print("cvb")
                         return False
                 else:
                     m=0
