@@ -6,7 +6,8 @@ class Solution:
                 if i!=j:
                     if words[i] in words[j]:
                         ans.append(words[i])
-        ans=list(set(ans))
+                        break
+        # ans=list(set(ans))
         return ans
 
         
