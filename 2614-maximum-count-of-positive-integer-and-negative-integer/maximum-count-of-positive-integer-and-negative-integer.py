@@ -3,9 +3,7 @@ class Solution:
         n=0
         m=len(nums)-1 
         bre=-1
-        z=nums.count(0)
-        if z==len(nums):
-            return 0
+       
         while(n<m):
             k=(n+m)//2
             if nums[k]>=0 and nums[k-1]<0:
@@ -22,7 +20,7 @@ class Solution:
             
 
         if bre==-1:
-            return len(nums)
+            0
         neg=len(nums[0:bre])
         pos=len(nums[bre::])-nums.count(0)
         return max(neg,pos)
