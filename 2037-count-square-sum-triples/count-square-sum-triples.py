@@ -5,9 +5,7 @@ class Solution:
             for j in range(i+1,n+1):
                 if(sqrt(i*i+j*j)<=n):
                     z=sqrt(i*i+j*j)
-                    m=i*i+j*j
                     if(int(z)==z):
-                        # print(i,j,z,m)
                         ans+=1
         return ans*2
 
